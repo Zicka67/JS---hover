@@ -1,3 +1,7 @@
+//la class Fx1 créer un effet de hover pour un élément DOM en utilisant les animations de la bibliothèque GSAP. 
+// Cet effet créer deux divs qui contiennent l'image de fond de l'élément d'origine et les animes lorsqu'un utilisateur survole ou retire 
+// la souris de l'élément DOM. mousenter + mouseleave
+
 export class Fx1 {
     DOM = {
         el: null,
