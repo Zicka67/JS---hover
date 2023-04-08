@@ -30,7 +30,7 @@ main {
 	display: grid;
 	align-items: center;
 	grid-template-columns: auto minmax(50%,600px);
-	margin: 0 auto;
+	margin: 50px auto;
 }
 
 .content__title {

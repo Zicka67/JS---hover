@@ -33,7 +33,7 @@ export class Fx2 {
 
         this.enterTimeout = gsap.timeline({
             defaults: {
-                duration: 1.8,
+                duration: 1.5,
                 //expo va gérer la courbe et sa vitesse :https://easings.net/fr pour plusieurs exemples
                 ease: 'expo',
             },
