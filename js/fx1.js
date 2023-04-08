@@ -41,7 +41,7 @@ export class Fx1 {
         // Définir une nouvelle animation pour "mouseenter"
         this.enterTimeout = gsap.timeline({
             defaults: {
-                duration: 0.5,
+                duration: 0.6,
                 ease: 'power3.inOut',
             },
         })

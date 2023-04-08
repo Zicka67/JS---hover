@@ -1,14 +1,15 @@
 import { Fx1 } from './fx1.js';
-
+import { Fx2 } from './fx2.js';
 
 export class DoubleImageEffect {
     DOM = {
         el: null
     }
     effects = {
-       
+        '1': 'Fx1',
+        '2': 'Fx2',
     };
-    classMap = {Fx1};
+    classMap = {Fx1,Fx2};
 
     constructor(DOM_el) {
         this.DOM.el = DOM_el;
